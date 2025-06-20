@@ -14,7 +14,7 @@ public static class TripSeedData
         { "Username", "brbailey" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c33f") },
@@ -22,7 +22,7 @@ public static class TripSeedData
         { "Username", "bsladecek" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c348") },
@@ -30,7 +30,7 @@ public static class TripSeedData
         { "Username", "cbaldauf" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c349") },
@@ -38,7 +38,7 @@ public static class TripSeedData
         { "Username", "cbankston" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c35b") },
@@ -46,7 +46,7 @@ public static class TripSeedData
         { "Username", "dedwards" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c36c") },
@@ -54,7 +54,7 @@ public static class TripSeedData
         { "Username", "dzucca" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c37d") },
@@ -62,7 +62,7 @@ public static class TripSeedData
         { "Username", "francisk" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c3b8") },
@@ -70,7 +70,7 @@ public static class TripSeedData
         { "Username", "keudy" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c3be") },
@@ -78,7 +78,7 @@ public static class TripSeedData
         { "Username", "kmurtaza" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c320") },
@@ -86,7 +86,7 @@ public static class TripSeedData
         { "Username", "afrey" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c326") },
@@ -94,7 +94,7 @@ public static class TripSeedData
         { "Username", "akirkpatrick" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c332") },
@@ -102,7 +102,7 @@ public static class TripSeedData
         { "Username", "automation" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c33a") },
@@ -110,7 +110,7 @@ public static class TripSeedData
         { "Username", "blakesmith" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c33e") },
@@ -118,7 +118,7 @@ public static class TripSeedData
         { "Username", "bshelley" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c34a") },
@@ -126,7 +126,7 @@ public static class TripSeedData
         { "Username", "cbatiste" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c34f") },
@@ -134,7 +134,7 @@ public static class TripSeedData
         { "Username", "cgisclair" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     },
     new BsonDocument {
         { "_id", new ObjectId("60bfb13c2306b6be1e55c35f") },
@@ -142,7 +142,7 @@ public static class TripSeedData
         { "Username", "djlewis" },
         { "TripId", 134112L },
         { "CustomerNumber", "01079" },
-        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30")) }
+        { "LastUpdated", new BsonDateTime(DateTime.Parse("2021-06-08T23:34:41.696+05:30").ToUniversalTime()) }
     }
         };
     }

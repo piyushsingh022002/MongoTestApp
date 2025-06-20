@@ -1,23 +1,27 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
-using System;
-using System.Threading.Tasks;
 
 class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         var client = new MongoClient("mongodb://localhost:27017");
-        var database = client.GetDatabase("testdb");
-        var collection = database.GetCollection<BsonDocument>("testcollection");
+        var database = client.GetDatabase("dummyDatabase");
+        var collection = database.GetCollection<BsonDocument>("ArchiveUserTrips");
 
-        var doc = new BsonDocument { { "message", "Hello from C# and MongoDB!" } };
-        await collection.InsertOneAsync(doc);
+        var documents = TripSeedData.GetSeedDocuments();
 
-        var result = await collection.Find(new BsonDocument()).ToListAsync();
-        foreach (var item in result)
+        // Insert documents if not already present
+        foreach (var doc in documents)
         {
-            Console.WriteLine(item.ToJson());
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", doc["_id"]);
+            var existing = collection.Find(filter).FirstOrDefault();
+            if (existing == null)
+            {
+                collection.InsertOne(doc);
+            }
         }
+
+        Console.WriteLine("Seeding complete.");
     }
 }
